@@ -1,0 +1,103 @@
+# Phase 1 — Test Scope, Validation Plan, and Kill Criteria (DCF Crawler)
+
+## Phase 1 Objective
+
+Phase 1 evaluates whether the DCF Crawler can reliably ingest loose dust, internally consolidate it into small solid units, and eject those units autonomously while remaining operationally simple and failure-tolerant.
+
+Phase 1 does not attempt to optimize production rate, brick strength, or placement behavior.
+
+## Test Philosophy
+
+Phase 1 testing is designed to expose fundamental failure modes early. The emphasis is on determining whether slow, layered internal consolidation is viable at all when combined with mobility, dust ingestion, and autonomous operation.
+
+Any test that cannot be performed due to facility, equipment, or environmental limitations is explicitly deferred without penalty.
+
+## Test Scope (Included)
+
+### Dust Intake Behavior
+
+* Ability to ingest loose dust without excavation or active digging
+* Sensitivity to dust particle size distribution and cohesion
+* Tendency for intake clogging, bridging, or backflow
+
+### Internal Consolidation Process
+
+* Verification of layered deposition behavior during slow heating
+* Observation of delamination, cracking, or collapse during buildup
+* Stability of partially formed bricks during continued motion
+
+### Thermal Behavior
+
+* Ability to heat dust incrementally without runaway or uneven melting
+* Thermal cycling effects on internal surfaces
+* Interaction between consolidation heating and crawler motion
+
+### Brick Ejection
+
+* Successful ejection of completed bricks without jams
+* Impact of ejection on internal mechanisms and geometry
+* Consistency of nominal brick size without precision control
+
+### Mobility Interaction
+
+* Effect of crawler motion on intake, consolidation, and ejection
+* Ability to continue operation while traversing representative terrain
+
+## Test Scope (Explicitly Excluded)
+
+* Structural strength testing of bricks beyond qualitative brittleness
+* Precision geometry, shaping, or dimensional control
+* Controlled placement, alignment, or stacking of bricks
+* Long-duration unattended endurance demonstrations
+* Production-rate optimization or scaling studies
+
+## Test Environment Assumptions
+
+* Terrestrial analog dust or regolith simulants may be used
+* Reduced gravity behavior may be inferred analytically rather than directly simulated
+* Continuous vacuum operation may be approximated if full-vacuum facilities are unavailable
+
+Limitations in environmental fidelity do not invalidate Phase 1 outcomes.
+
+## Metrics and Observables
+
+Phase 1 relies on practical, go/no-go observables:
+
+* Intake success rate versus clog events
+* Completion rate of layered brick formation
+* Frequency of delamination or collapse during formation
+* Successful brick ejection rate
+* Observable wear or fouling of internal surfaces
+
+Metrics are used comparatively and diagnostically, not as performance guarantees.
+
+## Data Handling
+
+Phase 1 data is intended solely to inform continuation or termination decisions. No extrapolation to operational throughput, construction utility, or mission impact is permitted.
+
+## Termination / Kill Criteria
+
+Phase 1 testing is terminated if any of the following occur:
+
+* Persistent intake clogging that cannot be resolved with passive geometry changes
+* Inability to complete layered consolidation without frequent collapse or delamination
+* Brick ejection failures that cause repeated jams
+* Thermal behavior that requires active control complexity
+* Interaction between motion and consolidation that cannot be passively mitigated
+
+Any single criterion is sufficient to end development.
+
+## Phase 1 Success Criteria
+
+Phase 1 is considered successful if:
+
+* Loose dust can be ingested reliably during motion
+* Layered internal consolidation can be completed repeatably
+* Bricks can be ejected without precision mechanisms
+* Failure modes are predictable and bounded
+
+Success at Phase 1 permits consideration of downstream integration or commercialization planning but does not imply readiness for deployment.
+
+## Plain-English Summary
+
+Phase 1 checks whether a moving machine can slowly turn loose dust into small solid chunks without constant problems. It looks for clogging, cracking, overheating, and jamming while the machine drives around. If those issues cannot be kept simple and predictable, the project stops.
