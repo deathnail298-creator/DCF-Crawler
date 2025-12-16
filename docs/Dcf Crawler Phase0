@@ -1,0 +1,100 @@
+# Phase 0 — Mission Definition & System Boundaries (DCF Crawler)
+
+## Problem Definition
+
+Loose lunar dust and fine regolith accumulate continuously due to routine surface activity and natural processes. While interception systems can capture dust, the captured material remains a nuisance unless it is rendered inert or repurposed. Unconsolidated dust continues to pose abrasion, contamination, and redistribution risks.
+
+The unresolved problem addressed here is whether loose dust can be **incrementally consolidated into inert solid mass** using a slow, passive, autonomous system that operates continuously without crew presence, power coordination, or active control.
+
+## Phase 0 Objective
+
+The Phase 0 objective is to establish that a mobile system can plausibly ingest loose dust, internally consolidate it into small solid units, and eject those units autonomously while remaining operationally simple and bounded.
+
+Phase 0 does not seek to demonstrate structural performance, construction utility, or operational optimization.
+
+## System Overview
+
+The **DCF Crawler** is a mobile, autonomous regolith consolidator that continuously converts loose dust into small, brittle solid units (“bricks”) through slow internal heating and layered deposition.
+
+The system:
+
+* Moves autonomously across the surface
+* Passively intakes loose dust through a forward intake
+* Internally heats dust slowly to near-melting conditions
+* Deposits dust layer-by-layer to form a consolidated unit
+* Ejects the consolidated unit rearward
+* Continues operation without crew interaction
+
+The crawler operates continuously and does not require scheduling, activation, or supervision.
+
+## Operating Assumptions
+
+* Loose dust is available on the surface from routine activity or natural redistribution
+* Consolidation occurs internally and does not modify the terrain beneath the crawler
+* Ejected bricks are brittle, low-strength, and non-load-bearing by default
+* Brick placement is uncontrolled and opportunistic
+* Manual intervention is not required for routine operation
+
+## System Boundaries
+
+DCF Crawler system boundaries are limited to:
+
+* Dust intake aperture
+* Internal thermal consolidation chamber
+* Passive layered deposition process
+* Brick ejection port
+* Locomotion sufficient to traverse surface terrain
+
+The system explicitly excludes:
+
+* Excavation or terrain sintering
+* Precision placement or construction
+* Active shaping, machining, or finishing of bricks
+* Structural certification or strength guarantees
+* Coordination with other systems as a requirement
+
+## Functional Description
+
+Loose dust enters the crawler through a forward intake. Dust is transferred internally into a thermal consolidation volume where it is heated gradually. Heated material is deposited incrementally onto a growing consolidated mass.
+
+This layered process continues until a nominal brick size is reached. The completed brick is then ejected rearward. No alignment, orientation, or placement control is applied.
+
+The crawler then continues movement and repeats the cycle.
+
+## Interfaces and Optional Feed Sources
+
+The DCF Crawler may ingest dust directly from the surface.
+
+Optionally, dust captured by external systems (e.g., passive dust capture units) may be manually poured into a simple intake chute or hopper. This optional feed does not constitute a dependency and is not required for operation.
+
+All material handling prior to intake and all use of ejected bricks remain outside system ownership.
+
+## Environmental Considerations
+
+* Operation is limited to airless or near-airless extraterrestrial environments
+* Thermal behavior is governed by internal heaters and passive heat rejection
+* External dust accumulation on the crawler is not considered a failure mode
+
+## Non-Claims
+
+The DCF Crawler makes no claims regarding:
+
+* Brick structural strength or uniformity
+* Construction suitability for habitats or load-bearing structures
+* Precision geometry or repeatable dimensions
+* Production rate optimization
+* Long-term unattended endurance beyond Phase 1 testing
+
+## Phase 0 Success Criteria
+
+Phase 0 is considered successful if:
+
+* Internal layered consolidation of dust into a solid unit is physically plausible
+* Autonomous brick ejection is credible without precision mechanisms
+* System boundaries prevent reinterpretation as a construction or manufacturing platform
+
+No performance thresholds or production guarantees are defined at Phase 0.
+
+## Plain-English Summary
+
+This system is a small autonomous machine that slowly turns loose dust into simple solid chunks while it drives around. The chunks are brittle and fall out wherever the machine happens to be. At this stage, the goal is only to show that this kind of slow, unattended consolidation is plausible, not to promise useful construction material.
