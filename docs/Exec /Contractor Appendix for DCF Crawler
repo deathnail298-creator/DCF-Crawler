@@ -1,0 +1,59 @@
+# Executive / Contractor Appendix — DCF Crawler
+
+## Purpose
+
+This appendix provides high-level, non-binding planning estimates for organizations evaluating the DCF Crawler beyond Phase 1. Figures are intentionally coarse and are intended to support early prioritization and portfolio decisions only.
+
+All values assume successful completion of Phase 1 and do not imply authorization to proceed, readiness for deployment, or guaranteed outcomes.
+
+## Phase 1 to Commercialization — Cost Estimate
+
+**Estimated total cost from completion of Phase 1 to initial commercial availability:**
+
+**USD $3.0M – $6.0M**
+
+This estimate assumes:
+
+* Incremental refinement of passive internal consolidation geometry
+* No precision manufacturing, shaping, or placement subsystems
+* No structural certification or construction qualification
+* Limited-rate initial fabrication and validation
+
+No cost breakdown is provided at this stage.
+
+## Phase 1 to Commercialization — Schedule Estimate
+
+**Estimated time from completion of Phase 1 to initial commercial availability:**
+
+**24 – 36 months**
+
+This estimate assumes:
+
+* Resolution of intake, consolidation, and ejection failure modes within Phase 1
+* No major redesign of locomotion or thermal architecture
+* Access to representative test environments without extended delays
+
+No schedule breakdown is provided.
+
+## Unit Price Estimate (Fabricated Hardware)
+
+**Estimated price per fabricated DCF Crawler unit (low-rate production):**
+
+**USD $400,000 – $800,000 per unit**
+
+This estimate assumes:
+
+* Rugged mobile platform with abrasion-tolerant materials
+* Internal heating hardware and insulation
+* No embedded software autonomy beyond basic motion control
+* No high-precision fabrication or finishing requirements
+
+Pricing excludes integration, deployment, logistics, and downstream system costs.
+
+## Commercial Boundary
+
+Use of the DCF Crawler design for fabrication, testing, deployment, proposal activity, or operational planning requires a separate commercial license. Reference and internal review use are permitted under the repository license.
+
+## Plain-English Summary
+
+Turning the Phase 1 prototype into a sellable crawler would likely take a few years and several million dollars. Each finished crawler would cost hundreds of thousands of dollars rather than millions because it avoids precision construction and complex automation. These figures are rough planning estimates, not detailed budgets or commitments.
